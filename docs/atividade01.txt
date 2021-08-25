@@ -1,0 +1,22 @@
+1. Servidor WEB
+
+2. Cliente WEB
+
+3. Tradução / Interpretação / Compilação
+
+4. Linguagens FrontEnd / Linguagens BackEnd
+
+5. Request / Response
+
+6. QueryString é
+
+
+https://hairon.great-site.net/ => Endereço / DNS, este é
+exForm/
+exPhpForm.php?
+txNome=Carlos&
+rdSexo=homem.jpeg&
+txEmail=hairon%40gmail.com&
+txWebsite=www.ifce.edu.br&
+txAreaComentario=Isso+é+um+comentário++&
+btnEnviar=Enviar"
