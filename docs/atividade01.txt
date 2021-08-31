@@ -1,22 +1,27 @@
-1. Servidor WEB
+1. O servidor WEB é onde fica armazenados os arquivos e dados que são servidos aos clientes WEB, por exemplo documentos HTML, scripts, imagens, todos são entregues como um serviço ao usuário final.
+Nós temos por exemplo os servidores Nginx, Apache e AWS.
 
-2. Cliente WEB
+2. O cliente WEB é quem utiliza os serviços de um servidor WEB, normalmente os clientes WEB são os browsers que navegam pela WEB, mas outras aplicações também podem usar servidores WEB, sendo considerados assim clientes.
+Nós temos por exemplo os browsers Chrome, Firefox e Edge.
 
-3. Tradução / Interpretação / Compilação
+3. Tradução é o ato de transformar algo de uma linguagem para outra linguagem.
+Interpretação é a tradução que ocorre à medida que o código fonte é disponibilizado, assim ele é traduzido para o código de destino em tempo real.
+Compilação é um processo de tradução que é necessário ter todo o código fonte antes, assim ele será traduzido para o código de destino após ser todo lido.
 
-4. Linguagens FrontEnd / Linguagens BackEnd
+4. As linguagens FrontEnd são aquelas que tratam da parte visual de um site na web, utilizamos no FrontEnd as linguagens HTML, CSS e JavaScript, também é comum usar frameworks para essas linguagens.
+As linguagens BackEnd são as que trabalham pro traz da aplicação, implementando as regras de negócios do site e seus requisitos funcionais, podem ser utilizadas várias linguagens como PHP, JavaScript e Python.
 
-5. Request / Response
+5. O Request ou HTTP Request é a requisição que o protocolo HTTP faz para o Servidor WEB, enviando os dados necessários do cliente para o servidor.
+Response ou HTTP Response é a resposta que o Servidor WEB envia de volta para o cliente, cada resposta tem um código específico que indica o que ocorreu e são enviados dados para o cliente.
 
-6. QueryString é
+6. A QueryString é um modelo clássico de manutenção do estado da página. Elas são conjuntos de chaves/valores que aparecem após a URL, com a seguinte sintaxe: ?Chave=Valor. Para passarmos mais de um conjunto de chave/valor eles devem ser concatenados usando o &.
 
-
-https://hairon.great-site.net/ => Endereço / DNS, este é
-exForm/
-exPhpForm.php?
-txNome=Carlos&
-rdSexo=homem.jpeg&
-txEmail=hairon%40gmail.com&
-txWebsite=www.ifce.edu.br&
-txAreaComentario=Isso+é+um+comentário++&
-btnEnviar=Enviar"
+https://hairon.great-site.net/ => Endereço / DNS
+exForm/ => Pasta no Servidor
+exPhpForm.php? => Script
+txNome=Carlos& => Parâmetro 1
+rdSexo=homem.jpeg& => Parâmetro 2
+txEmail=hairon%40gmail.com& => Parâmetro 3
+txWebsite=www.ifce.edu.br& => Parâmetro 4
+txAreaComentario=Isso+é+um+comentário++& => Parâmetro 5
+btnEnviar=Enviar => Parâmetro 6
