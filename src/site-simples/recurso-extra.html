@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Meu Recurso Extra</title>
+</head>
+<body>
+    <div id="navegacao">
+        <h1>Meu Recurso Extra</h1>
+        <ul id="navegacao">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li id="selecionado"><a href="recurso-extra.html">Meu Recurso Extra</a></li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <h1>Botão Interativo com JavaScript</h1>
+        <h2 id="contador">0</h2>
+        <div class="botoes">
+            <button type="button" onclick="adicionar()">Adicionar 1</button>
+            <button type="button" onclick="subtrair()">Subtrair 1</button>
+            <button type="button" onclick="adicionar10()">Adicionar 10</button>
+            <button type="button" onclick="subtrair10()">Subtrair 10</button>
+        </div>
+    </div>
+<script>
+    let contagem = 0;
+
+    function adicionar(){
+        contagem++;
+        document.getElementById("contador").innerHTML = contagem;
+    }
+
+    function subtrair(){
+        if(contagem > 0){
+            contagem--;
+            document.getElementById("contador").innerHTML = contagem;
+        }
+    }
+    function adicionar10(){
+        contagem += 10;
+        document.getElementById("contador").innerHTML = contagem;
+    }
+
+    function subtrair10(){
+        if(contagem > 0){
+            contagem -= 10;
+            document.getElementById("contador").innerHTML = contagem;
+        }
+    }
+</script>
+</body>
+</html>
