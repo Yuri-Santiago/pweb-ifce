@@ -40,16 +40,18 @@
             document.getElementById("contador").innerHTML = contagem;
         }
     }
+    
     function adicionar10(){
         contagem += 10;
         document.getElementById("contador").innerHTML = contagem;
     }
 
     function subtrair10(){
-        if(contagem > 0){
-            contagem -= 10;
-            document.getElementById("contador").innerHTML = contagem;
+        contagem -= 10;
+        if (contagem < 0){
+            contagem = 0;
         }
+        document.getElementById("contador").innerHTML = contagem;
     }
 </script>
 </body>
