@@ -73,6 +73,19 @@ td{
     margin-left: 184px;
 }
 
+.titulo_navegacao{
+    margin-left: 30px;
+}
+
+.telefone{
+    margin: 0;
+    background-color: #03e228;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    padding: 0;
+}
+
 button{
     background-color: #6a00e2;
     border: none;

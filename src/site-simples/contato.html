@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="navegacao">
+        <h1 class="titulo_navegacao">Contato</h1>
+        <ul id="navegacao">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="recurso-extra.html">Meu Recurso Extra</a></li>
+            <li id="selecionado"><a href="contato.html">Contato</a></li>            
+        </ul>
+    </div>
+    <div id="conteudo">
+        <h1>Meu Contato</h1>
+        <p class="tamanho_20">Para entrar em contato comigo use o email: yuri.mateus.santiago07@aluno.ifce.edu.br.</p><br>
+        <p class="tamanho_20">Preencha este formulário para dar sugestões ou críticas.</p>  
+        <form action="form.php" method="get">
+            Nome: <input type="text" name="nome"><br>
+            E-mail: <input type="text" name="email"><br>
+            Comentário:<br>
+            <textarea name="comentario" rows="5" cols="50"></textarea><br>
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+        <br><p class="tamanho_20" id="numero"></p>
+        <button class="telefone" onclick="mostrarNumero()"><img src="imagens/telefone.png" alt="telefone de contato"></button>
+    </div>
+    <script>
+        function mostrarNumero(){
+            document.getElementById("numero").innerHTML = "Se quiser entrar em contato por celular, meu número de contato e whatsapp é (85)987802600."
+        }
+    </script>
+</body>
+</html>
